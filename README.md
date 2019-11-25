@@ -7,7 +7,9 @@ Pulling the repository on your computer
 The following have been made on a Linux Ubuntu 18.04. 
 1st, you will need to « pull » the contains of this repository to your computer. In order to achieve this, create an empty folder somewhere on your computer (desktop always the simplest).
 
-Once created and named, open a terminal and go to your brand new folder with it. 
+Once created and named, open a terminal and go to your brand new folder with it.
+Write the following command line : git init
+ 
 Then, write the following command line : git pull https://github.com/LiamGaAs/RRH_frontEnd master. 
 It will download all the content of the repository and store it in your newly created folder.
 
