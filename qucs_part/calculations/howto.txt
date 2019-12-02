@@ -1,0 +1,11 @@
+This program computes the values of odd and even impedances values needed to calculate the values of length/width/spacing of a coupled
+microstrip filter.
+
+As the filters has been choosen to have a ripple of 0.5 dB in its bandwidth, the values of g1, g2 and g3 are fixed. These are the values of the normalized components of
+the normalize lowpass Chebyshev filter. These normalized values can be found online, for example on rfcafe website, which gives values for several values of ripple.
+
+Also, the number of g's calulated depends on the order of the filter. Should the order be 5, we would have had 5 g's needed to design the filter.
+
+3 g's will make the coupled microstrip filter to have 3 stages, and 5 g's, 5 stages. 
+
+Qucs adds 1 more stage to the filter, and it seems it doubles the middle stage. Removing it improves return loss as far as I could see.
