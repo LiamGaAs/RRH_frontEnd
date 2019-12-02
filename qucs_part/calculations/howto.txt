@@ -1,5 +1,6 @@
 This program computes the values of odd and even impedances values needed to calculate the values of length/width/spacing of a coupled
-microstrip filter.
+microstrip filter. fp0 stands for the central frequency. fp1 stands for the low cutoff frequency and fp2 stands for the high cutoff frequency.
+Once you have values of even/odd impedances, you can use Qucs coupled mirostrip calculator to calculate width/length/spacing of coupled microstrip tracks.
 
 As the filters has been choosen to have a ripple of 0.5 dB in its bandwidth, the values of g1, g2 and g3 are fixed. These are the values of the normalized components of
 the normalize lowpass Chebyshev filter. These normalized values can be found online, for example on rfcafe website, which gives values for several values of ripple.
