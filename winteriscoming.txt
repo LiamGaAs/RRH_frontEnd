@@ -1,0 +1,16 @@
+
+NEWS FROM THE 2ND OF DECEMBER 2019
+
+In the branch master, in the "kicad_part" there is only the FR4_proto project. After testing the PCB thanks to VNA, it appears that 
+the freqeuncy response is not the good one. The shape of the curve is really good, but S21 attenuation is high (between 5 and 6 dB),
+and the central frequency is not the good one (1.8 GHz instead of 1.9 GHz).
+
+The tested FR4_proto PCB is from PCBWay. The same one is being
+currently manufactured at my school and should be finished by this week. Tests and comparison will follow.  
+
+
+2 others filters PCB are arriving today from PCB way. 
+They can be seen on developpement branch as FR4_proto2 and resonnator_LC (or bandpass_resonator_LC).
+As a thought, it may be needed to move on better PCB material. I mean, more adapted to HF signals.
+FR4 is good (and manufacturing is cheap), but not for HF, as it is a very lossy material at these frequencies.
+RO5880 or RO4003 are much more adapted to HF stuff. But PCB manufacturing is expensive when using these 2.  
