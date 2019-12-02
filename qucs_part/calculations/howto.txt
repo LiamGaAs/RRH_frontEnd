@@ -9,4 +9,5 @@ Also, the number of g's calulated depends on the order of the filter. Should the
 
 3 g's will make the coupled microstrip filter to have 3 stages, and 5 g's, 5 stages. 
 
-Qucs adds 1 more stage to the filter, and it seems it doubles the middle stage. Removing it improves return loss as far as I could see.
+Qucs will always add one more stage when it synthetizes a filter. When the order is 3, it will add a middle stage.
+When the order is 5, it will add a copy of the 2nd stage between the 4th and the 5th stage of the filter.
