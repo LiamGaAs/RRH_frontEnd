@@ -1,0 +1,121 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L sma_custom_connector:sma_connector SMA1
+U 1 1 5DE7CB93
+P 3200 4300
+F 0 "SMA1" H 3088 3935 50  0000 C CNN
+F 1 "sma_connector" H 3088 4026 50  0000 C CNN
+F 2 "sma_custom:CONSMA003.062-G" H 3150 4750 50  0001 C CNN
+F 3 "" H 3150 4750 50  0001 C CNN
+	1    3200 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L sma_custom_connector:sma_connector SMA2
+U 1 1 5DE7CF08
+P 5900 4300
+F 0 "SMA2" H 6168 4351 50  0000 L CNN
+F 1 "sma_connector" H 6168 4260 50  0000 L CNN
+F 2 "sma_custom:CONSMA003.062-G" H 5850 4750 50  0001 C CNN
+F 3 "" H 5850 4750 50  0001 C CNN
+	1    5900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5DE7D468
+P 3650 4450
+F 0 "#PWR0101" H 3650 4200 50  0001 C CNN
+F 1 "GND" H 3655 4277 50  0000 C CNN
+F 2 "" H 3650 4450 50  0001 C CNN
+F 3 "" H 3650 4450 50  0001 C CNN
+	1    3650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5DE7D706
+P 5450 4450
+F 0 "#PWR0102" H 5450 4200 50  0001 C CNN
+F 1 "GND" H 5455 4277 50  0000 C CNN
+F 2 "" H 5450 4450 50  0001 C CNN
+F 3 "" H 5450 4450 50  0001 C CNN
+	1    5450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5DE7DAA2
+P 3650 4150
+F 0 "#PWR0103" H 3650 3900 50  0001 C CNN
+F 1 "GND" H 3655 3977 50  0000 C CNN
+F 2 "" H 3650 4150 50  0001 C CNN
+F 3 "" H 3650 4150 50  0001 C CNN
+	1    3650 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5DE7DCFF
+P 5450 4150
+F 0 "#PWR0104" H 5450 3900 50  0001 C CNN
+F 1 "GND" H 5455 3977 50  0000 C CNN
+F 2 "" H 5450 4150 50  0001 C CNN
+F 3 "" H 5450 4150 50  0001 C CNN
+	1    5450 4150
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4100 4300
+NoConn ~ 4950 4300
+Wire Wire Line
+	4050 4300 3650 4300
+Wire Wire Line
+	4950 4300 5450 4300
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5DE7E420
+P 4450 3400
+F 0 "J1" V 4414 3212 50  0000 R CNN
+F 1 "Rodin" V 4323 3212 50  0000 R CNN
+F 2 "borniers:PRT-08084" H 4450 3400 50  0001 C CNN
+F 3 "~" H 4450 3400 50  0001 C CNN
+	1    4450 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5DE7F005
+P 4550 3600
+F 0 "#PWR0105" H 4550 3350 50  0001 C CNN
+F 1 "GND" H 4555 3427 50  0000 C CNN
+F 2 "" H 4550 3600 50  0001 C CNN
+F 3 "" H 4550 3600 50  0001 C CNN
+	1    4550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5DE7F3B4
+P 4450 3600
+F 0 "#PWR0106" H 4450 3350 50  0001 C CNN
+F 1 "GND" H 4455 3427 50  0000 C CNN
+F 2 "" H 4450 3600 50  0001 C CNN
+F 3 "" H 4450 3600 50  0001 C CNN
+	1    4450 3600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
