@@ -1,5 +1,5 @@
 
-NEWS FROM THE 2ND OF DECEMBER 2019
+NEWS FROM THE 2nd OF DECEMBER 2019
 
 In the branch master, in the "kicad_part" there is only the FR4_proto project. After testing the PCB thanks to VNA, it appears that 
 the freqeuncy response is not the good one. The shape of the curve is really good, but S21 attenuation is high (between 5 and 6 dB),
@@ -13,4 +13,21 @@ currently manufactured at my school and should be finished by this week. Tests a
 They can be seen on developpement branch as FR4_proto2 and resonnator_LC (or bandpass_resonator_LC).
 As a thought, it may be needed to move on better PCB material. I mean, more adapted to HF signals.
 FR4 is good (and manufacturing is cheap), but not for HF, as it is a very lossy material at these frequencies.
-RO5880 or RO4003 are much more adapted to HF stuff. But PCB manufacturing is expensive when using these 2.  
+RO5880 or RO4003 are much more adapted to HF stuff. But PCB manufacturing is expensive when using these 2.
+
+
+
+NEWS FROM THE 3rd OF DECEMBER 2019
+
+I made some tests concerning 3 new filters.
+I have also been to Lesquin in order to retrieve a package from FedEx. My idea with it is to make some fast RF prototyping
+with blank one sided FR4 PCB, and make the tracks with copper tape.
+
+
+
+NEWS FROM THE 4th OF DECEMBER 2019
+
+Measurements results (all the photos) are on the online repository. I think I'll move on definitely on RO4350B substrate.
+It is one of the cheapest RF substrate (manufacturing processing looks like the classical FR4). On the webiste of multi-circuit-board.eu,
+5 140 mm by 40 mm RO4350B board cost 216.85 euros. However, the more you take, the cheapest it is, talking in terms of  unitary board price.
+  
